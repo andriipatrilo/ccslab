@@ -1,0 +1,46 @@
+body{
+  background-image: url(https://bipbap.ru/wp-content/uploads/2017/06/81833890_f4a1681c70.jpg );
+}
+header {
+  text-align: center;
+  font-family: fantasy;
+}
+.wrapper {
+  width:700px;
+  margin: 0 auto;
+}
+
+ aside  {
+   height: 600px;
+   width: 19%;
+   background: #b5d9d1;
+   float: left;
+
+ }
+
+ .content {
+   height: 600px;
+   width: 59%;
+   background: #b5d9d1;
+   float: left;
+   margin-left: 5px;
+ }
+
+ .excta_section {
+   background: #b5d9d1;
+   border: 2px;
+   height: 500px;
+   max-width: 19%;
+   float: left;
+   margin-left: 5px;
+ }
+
+ footer {
+   word-wrap: break-word;
+   margin-left: 5px;
+   background: #b5d9d1 ;
+   height: 95px;
+   width: 19%;
+   margin-top: 5px;
+   float: left;
+ }
