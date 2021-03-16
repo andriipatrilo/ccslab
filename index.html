@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>CMS</title>
-    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-<h1>Що таке CMS</h1>
-<p><b>CMS</b> - «система управління контентом» (<b>движок</b>) – написана PHP-програмістами основа для сайту, за допомогою якої ви зможете управляти сайтом (додавати контент, змінювати пункти меню і т.п.) не знаючи HTML і CSS.</p>
-<p>Однак, для того щоб зробити сайт за допомогою <b>CMS</b> <em>будуть потрібні послуги</em> і програміста, і дизайнера, і верстальника. І капіталовкладення.</p>
-<h2>Які бувають cms</h2>
-<p>Бувають різні системи управління контентом: для інтернет-магазинів, для блогів, для форумів і т.д.</p>
-<h2>Приклади cms</h2>
-<p><em>Приклади популярних CMS:</em> Joomla, WordPress (для блогів), PhpBB (для форумів).</p>
+  <center>
+  <form>
+  <table border=3 cellspacing=2 width=350 bgcolor="#ffebcd">
+  <tr align=center><th align=right>Формула для розрахунку:</th>
+  <td>Змінна c<input type=number id='C' size=15></td>
+  <td>Змінна f<input type=number id='F' size=15></td>
+  <td>Змінна d<input type=number id='D' size=15></td>
+  <td>Змінна e<input type=number id='E' size=15></td>
 
-<p><b>CMS-ки</b> бувають платні і безплатні.</p>
-</div>
 
+  <td rowspan=2><input id="button" type=button value=" Обчислити "></td>
+  </tr>
+  <tr align=center>
+  <th align=right>Результат:</th>
+  <td><input type=number id='result' size=15></td>
+  <td><input type=number id='result1' size=15></td>
+
+</tr>
+  </table>
+  </form>
+  </center>
+
+
+    <script src="app.js" charset="utf-8"></script>
   </body>
 </html>
